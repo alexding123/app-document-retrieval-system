@@ -122,6 +122,17 @@
                 resultsContainer.appendChild(li);
             }
         }
+        //对选中结果进行预览
+        function lookSelectedResults(){
+             //如果未选择下载文件则输出提示
+            if (selectedResults.length === 0) {
+                alert("请选择下载内容！");
+                return;
+            }
+            else{
+                windows.open(file);
+            }
+        }
 
         // 保存选中结果到文本并下载
         function saveSelectedResults() {
