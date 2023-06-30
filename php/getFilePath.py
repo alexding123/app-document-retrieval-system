@@ -2,7 +2,7 @@ import os
 import json
 
 
-directory = 'G:/ceshi' 
+directory = 'C:\Users\86136\Downloads' 
 
 def get_files(directory):
     file_paths = []
@@ -21,7 +21,7 @@ json_data = json.dumps(file_paths)
 
 print(json_data)
 try:
-    file = open('./FindFile/src/server/filePath.json', 'w')
+    file = open('filePath.json', 'w')
 
     # 写入内容
     fd=file.write(json_data)
