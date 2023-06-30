@@ -10,7 +10,7 @@ $("#folder-input").on("change", function(event) {
         console.log(folderPath);
         console.log(Path);
 
-        $.post("src/server/SavePath.php",{
+        $.post("../php/SavePath.php",{
             "folderPath" : folderPath,
             "Path" : Path,
             "i" : i
