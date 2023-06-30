@@ -1,5 +1,5 @@
 <?php
-$folderPath = 'G:/ceshi'; // 指定文件夹路径
+$folderPath = 'C:\Users\86136\Downloads'; // 指定文件夹路径
 
 // 使用 scandir 函数获取文件列表
 $files = scandir($folderPath);
