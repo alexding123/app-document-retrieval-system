@@ -8,7 +8,7 @@ $(document).ready(function() {
             url: "src/server/getPath.php",
             type: "GET",
             success: function(data) {
-              const file = "src/server/filePath.json";
+              const file = "../php/filePath.json";
 
               fetch(file)
               .then(response => response.json())
