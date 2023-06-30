@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body style="text-align: center;">
+    <h1>文件检索系统</h1>
+    <button id="SelectBtn">选择文件</button>
+    <div id="fileList"></div>
+    <button id="ConfirmBtn">确认</button>
+    <input type="text" id="input" placeholder="请输入关键词">
+    <button onclick="test()">查找</button>
+    <button id="save" onclick="saveDynamicDataToFile()" style="display:none">下载到本地</button>
+    <div class="box" style="text-align: left;"></div>
+    <script src="src/page/jquery.min.js"></script>
+    <script src="src/page/pdf.js"></script>
+    <script src="src/page/getFilePath.js"></script>
+    <script src="src/page/getMainText.js"></script>
+    <script src="src/page/FileSaver.js"></script>
+    <script src="src/page/query.js"></script>
+</body> 
+</html>
